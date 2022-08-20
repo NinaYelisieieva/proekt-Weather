@@ -1,0 +1,75 @@
+body {
+  background: 
+  font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+  width: 70 %;
+  margin: auto;
+}
+
+.weahter {
+  display: block;
+  background:#fafafa;
+  color: #085f63;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px #dadde1;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 700px;
+  margin-bottom: 15px;
+}
+.row {
+  text-align: left;
+  color: #085f63;
+  font-size: 30px;
+  font-weight: bold;
+}
+h2 {
+  
+  font-weight: bold;
+}
+h5 {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.fa-cloud-sun {
+  font-size: 120px;
+  color: #ff5959;
+}
+
+.fa-sun {
+  font-size: 40px;
+  color: #facf5a;
+}
+.fa-cloud-sun-rain {
+  font-size: 40px;
+  color: #ff5959;
+}
+.fa-cloud {
+  font-size: 40px;
+  color: #49beb7;
+}
+.fa-cloud-showers-heavy {
+  font-size: 40px;
+  color: #085f63;
+}
+.fa-cloud-bolt {
+  font-size: 40px;
+  color: #085f63;
+}
+.card {
+  text-align: center;
+  color: #350d36;
+}
+ 
+.fahrenheit {
+    margin: 0 auto;
+    
+    font-size: 5px;
+    color: #085f63;
+}
+.celsius {
+    margin: 0;
+    width: 10%;
+    font-size: 10px;
+}
