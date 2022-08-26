@@ -49,6 +49,7 @@ function showWeahter(response) {
 function showTemp(response) {
   let temperature = Math.round(response.data.main.temp);
   let city = response.data.name;
+
   //console.log(response);
 }
 
@@ -85,3 +86,12 @@ let currentLocationButton = document.querySelector("#current-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("Kiev");
+
+function Icon(response) {
+  let iconElement = document.querySelector("#icon");
+
+  iconElement.setAttribute(
+    "src",
+    ` http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+}

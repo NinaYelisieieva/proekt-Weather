@@ -1,13 +1,6 @@
-body {
-  background: 
-  font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
-  width: 70 %;
-  margin: auto;
-}
-
 .weahter {
   display: block;
-  background:#fafafa;
+  background: #fafafa;
   color: #085f63;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -24,7 +17,6 @@ body {
   font-weight: bold;
 }
 h2 {
-  
   font-weight: bold;
 }
 h5 {
@@ -61,15 +53,19 @@ h5 {
   text-align: center;
   color: #350d36;
 }
- 
+
 .fahrenheit {
-    margin: 0 auto;
-    
-    font-size: 5px;
-    color: #085f63;
+  margin: 0 auto;
+
+  font-size: 5px;
+  color: #085f63;
 }
 .celsius {
-    margin: 0;
-    width: 10%;
-    font-size: 10px;
+  margin: 0;
+  width: 10%;
+  font-size: 10px;
+}
+.col-2 {
+  margin: 0 auto;
+  font-size: 40%;
 }
