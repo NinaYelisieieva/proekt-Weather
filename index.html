@@ -25,9 +25,14 @@
 	
    <div class="weahter">
       <form class="form" id="cityForm">
-        <input type="text" placeholder="Enter your city" autofocus="on" id="city-input" />
+          
+        <input type="text" placeholder="Enter your city" autofocus="" id="city-input" class="text"/>
         <input type="submit" value="Search" class="btn btn-primary" id="search-button"/>
         <input type="submit" value="Current" class="btn btn-success" id="current-button"/>
+          
+        
+      
+    
       </form>
      
     </br>
@@ -39,30 +44,30 @@
 
         <div class="col">
         <h2 id="current-city">CITY</h2>
-        </br>
+        <h5 id="discrsption" class = "discrsption" >Clear</h5>
         
       <h5>Wind <span id="wind"></span> km/h</h5>
       <h5>Humidity <span id="humid"></span> % </h5>  
         </div>
         
-        <div class="col-2">
+        <div class="col">
             
-        <img  scr="" alt = "" id ="icon" class= "float-left"/>
+        <img  scr="" alt = "" id ="icon" class= "centerpik"/>
           
         </div>
 
         <div class="col">
             
-        <h2 id="current-temp">18</h2>
-        <span id="celsius"><a href="#">°C</a></span>
+        <h2 id="current-temp" class = "temp">18</h2>
+        <span id="celsius" class = "celsius"><a href="#">°C</a></span>
                      /
-        <span id="fahrenheit"><a href="#">°F</a></span>
+        <span id="fahrenheit" class ="fahrenheit"><a href="#">°F</a></span>
            
         </br>
      
-        <h5 id="day">day month</h5>  
+        <h5><span id="date"></span></h5>  
         
-        <h5 id="time">TIME</h5> 
+        <h5> <span id="time"></span></h5> 
         </div>
     </div>
 	</div> 
