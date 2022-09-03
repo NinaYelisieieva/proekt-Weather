@@ -1,6 +1,6 @@
 .weahter {
   display: block;
-  background: #fafafa;
+  background: #fdffab;
   color: #085f63;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -53,4 +53,8 @@ h2 {
   border: 1px solid #0069d9;
   font-size: 16px;
   font-family: Tahoma;
+}
+
+.card {
+  background: #a8e6cf;
 }
