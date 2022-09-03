@@ -11,55 +11,40 @@
   margin-bottom: 15px;
 }
 .row {
-  text-align: left;
-  color: #085f63;
+  text-align: center;
+
   font-size: 30px;
   font-weight: bold;
 }
 h2 {
   font-weight: bold;
 }
-h5 {
-  font-size: 20px;
+.h5 {
+  font-size: 10px;
   opacity: 0.8;
 }
-
-.fa-cloud-sun {
-  font-size: 120px;
-  color: #ff5959;
-}
-
-.fa-sun {
-  font-size: 40px;
-  color: #facf5a;
-}
-.fa-cloud-sun-rain {
-  font-size: 40px;
-  color: #ff5959;
-}
-.fa-cloud {
-  font-size: 40px;
-  color: #49beb7;
-}
-.fa-cloud-showers-heavy {
-  font-size: 40px;
-  color: #085f63;
-}
-.fa-cloud-bolt {
-  font-size: 40px;
-  color: #085f63;
+.min {
+  opacity: 0.8;
 }
 .card {
   text-align: center;
   color: #350d36;
 }
 
-.centerpik {
-  text-align: center;
-  font-size: 70%;
-}
 .discrsption {
   text-transform: capitalize;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.wind {
+  text-transform: capitalize;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.humid {
+  text-transform: capitalize;
+  font-size: 20px;
+  opacity: 0.8;
 }
 .text {
   width: 430px;
